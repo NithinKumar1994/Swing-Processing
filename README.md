@@ -9,10 +9,10 @@ are (in order) timestamp, ax, ay, az, wx, wy, wz.
 
 
 csv file is scanned and data is processed and stored in arraylists.This data is used to process the swing data using the 4 functions.<br>
-searchContinuityAboveValue(data, indexBegin, indexEnd, threshold,<br>
-winLength) - from indexBegin to indexEnd, search data for values that are higher than<br>
-threshold. Returns the first index where data has values that meet this criteria for at least<br>
-winLength samples in a row.<br>
+<br>searchContinuityAboveValue(data, indexBegin, indexEnd, threshold,
+winLength) - from indexBegin to indexEnd, search data for values that are higher than
+threshold. Returns the first index where data has values that meet this criteria for at least
+winLength samples in a row.</br>
 ● backSearchContinuityWithinRange(data, indexBegin, indexEnd,<br>
 thresholdLo, thresholdHi, winLength) - from indexBegin to indexEnd (where<br>
 indexBegin is larger than indexEnd), search data for values that are higher than<br>
