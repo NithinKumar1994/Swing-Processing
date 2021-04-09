@@ -1,7 +1,7 @@
 # Swing-Processing
 Swing Processing using Java Spring boot.
 
-Sensors record data from a three-axis accelerometer and a three-axis gyroscope. In order to
+Sensors record data from a three-axis accelerometer and a three-axis gyroscope of a golf swing. In order to
 appropriately use that data, we also need to record the timestamp at which the samples were taken. For
 any one swing, we'll have about a thousand such samples. We'd like you to put together a data structure
 that would represent all of this data.A sample data file arranged in a CSV format. The columns
